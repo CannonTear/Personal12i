@@ -1,0 +1,191 @@
+<html>
+<title> Web Project - JACK CANNON </title>
+
+<head>	
+<style>
+p { border: 1px solid red;
+margin: 50px;
+}
+* {
+  padding:0;
+  margin:0;
+}
+header { 
+background: black;
+}
+body {
+  color: grey;
+  font: 14px Sans-Serif;
+  padding: 50px;
+  background: #eee;
+}
+h1 {
+  text-align: center;
+  padding: 20px 0 12px 0;
+  margin: 0;
+color: white;}
+h2 {
+  font-size: 16px;
+  
+  padding: 0 0 12px 0; 
+}
+ h3 { text-align:center;
+}
+table {
+  background-color: "red";
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+}
+th {
+  background-color: #FE4902;
+  color: #FFF;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+footer { 
+background-color: black;
+color: #333; 
+}
+a:link { color: #8D0000; }
+a:visited { color: #8D0000;
+ }
+A:hover { text-decoration: underline; }
+th small {
+  font-size: 9px; 
+}
+td, th {
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+td a {
+  color: #663300;
+  display: block;
+  padding: 5px 10px;
+}
+th a {
+  padding-left: 0
+}
+td:first-of-type a {
+  background: url(./.images/file.png) no-repeat 10px 50%;
+  padding-left: 35px;
+}
+th:first-of-type {
+  padding-left: 35px;
+}
+td:not(:first-of-type) a {
+  background-image: none !important;
+} 
+tr:nth-of-type(odd) {
+  background-color: #E6E6E6;
+}
+tr:hover td {
+  background-color:#CACACA;
+}
+tr:hover td a {
+  color: #000;
+}
+/* icons for file types */
+ .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+.dropbtn {
+  Background-color: #171717;
+  color:  #8D0000;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #171717;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: ##171717;}
+</style>
+
+<h1> JACK CANNON </h1>
+<br>
+<!-- Dropdown main -->
+<h3> <a href="index.html"> HOME </a>| <a href="about.html"> ABOUT </a> |
+<a href="services.html"> SERVICES </a> |  <div class="dropdown">
+  <button class="dropbtn"><b>SHOWS</b></button>
+  <div class="dropdown-content">
+    <a href="show1.html">SHOW 1</a>
+    <a href="show2.html">SHOW 2</a>
+    
+  </div>
+</div></h3>
+<br>
+<h3>Jack Cannon is a nationally recognized designer. Information on him can be found around the site. </h3>
+<br>
+</head>
+
+<!-- Web Portfolio of Artist 1. Web Design -->
+
+<!-- 5 Pages
+1. HOME
+2. ABOUT
+3. SERVICES
+4. SHOW EXAMPLE 1
+5. SHOW EXAMPLE 2 
+All pages have the same formatting besides the Home page --> 
+
+
+
+<!-- IMAGE Scroll -->
+
+
+
+
+<body>
+<body style="background-color:#171717;">
+
+</body>
+<footer> 
+<br>
+<h2> &nbsp; CONTACT INFORMATION: </h2>
+&nbsp;<a href="insert"> info@jackcannonmusic.com </a> <!-- INSERT LINK TO EMAIL HERE -->
+<br> </br>
+<h2> &nbsp; Directory: </h2>
+&nbsp;<a href="index.html">  HOME </a><br> <!-- INSERT HOME PAGE LINK -->
+&nbsp;<a href="about.html"> ABOUT </a><br> <!-- INSERT ABOUT PAGE LINK -->
+&nbsp;<a href="services.html"> SERVICES </a><br> <!-- INSERT SERVICES PAGE LINK -->
+&nbsp;<a href="show1.html">  SHOW EXAMPLE 1 </a><br> <!-- INSERT SHOW EXAMPLE 1 PAGE LINK -->
+&nbsp;<a href="show2.html"> SHOW EXAMPLE 2 </a> <!-- INSERT SHOW EXAMPLE 2 -->
+<br>
+<br>
+</footer>
+</html>
